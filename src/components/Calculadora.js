@@ -8,6 +8,10 @@ function Calculadora() {
 
     function inputNumero(event) {
         let numeroClicado = event.target.value
+
+        if(numeroClicado === "." && calculo.toString().includes(".")){
+            return
+        }
         
         if(calculo === 0){
             setCalculo(numeroClicado)
