@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body {
+    padding: 30px 10px;
+}
+
+h1 {
+    color: #fff;
+    padding: 1em;
+    text-align: right;
+}
+
+button {
+    aspect-ratio: 1/1;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 50%;
+    background-color: #505050;
+    color: #fff;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container-principal{
+    margin: auto;
+    background-color: black;
+    border-radius: 1em;
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 4/5;
+    padding: 1.5em;
+}
+
+.resultado {
+    height: 105px;
+}
+
+.grupo-botoes{
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 0.5rem;
+}
+
+.grupo-4{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.5rem;
+}
+
+.laranja {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.branco {
+    background-color: #fff;
+    color: #000;
+}
+
+.zero {
+    aspect-ratio: 2/1;
+    grid-column: 1/2;
+    border-radius: 1.5em;
+    margin-right: 0.5rem;
+}
