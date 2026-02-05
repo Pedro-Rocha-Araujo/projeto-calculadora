@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/projeto-calculadora/static/css/main.fb7c0ae6.css",
+    "main.js": "/projeto-calculadora/static/js/main.e0c61d41.js",
+    "index.html": "/projeto-calculadora/index.html",
+    "main.fb7c0ae6.css.map": "/projeto-calculadora/static/css/main.fb7c0ae6.css.map",
+    "main.e0c61d41.js.map": "/projeto-calculadora/static/js/main.e0c61d41.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb7c0ae6.css",
+    "static/js/main.e0c61d41.js"
+  ]
+}
