@@ -1,4 +1,4 @@
-# Projeto Calculadora
+# Projeto Calculadora 🔢
 ## O presente projeto foi excutado utilizando as seguintes tecnologias:
 * HTML5
 * CSS3
